@@ -25,16 +25,16 @@ Decryption:
 - Includes a random 16-byte salt for each encryption process to enhance security and prevent rainbow table attacks.
 - Performs 100,000 iterations to make brute-force attacks computationally expensive.
 
-4. Initialization Vector (IV):
+3. Initialization Vector (IV):
 - Generates a unique 16-byte IV for each encryption operation, ensuring that the same plaintext encrypted multiple times results in different ciphertexts.
 - The IV is stored alongside the salt and ciphertext in the encrypted file.
 
-5. Graphical User Interface (GUI):
+4. Graphical User Interface (GUI):
 - Built using Tkinter, providing a simple interface for file selection and password entry.
 - Includes buttons for encrypting and decrypting files, enhancing usability for non-technical users.
 - Displays success and error messages using message boxes, guiding the user through the process.
 
-6. File Selection:
+5. File Selection:
 - Employs a file dialog to allow users to easily select files for encryption or decryption.
 - Ensures the selected file path is processed securely and appropriately.
 
